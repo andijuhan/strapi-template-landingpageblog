@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_menu_items",
+  "info": {
+    "displayName": "MenuItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    },
+    "ChildMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button"
+    }
+  }
+}
