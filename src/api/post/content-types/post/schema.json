@@ -51,15 +51,15 @@
       "target": "api::category.category",
       "inversedBy": "Posts"
     },
-    "Author": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "posts"
-    },
     "Featured": {
       "type": "boolean",
       "default": false
+    },
+    "Author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "Posts"
     }
   }
 }
